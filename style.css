@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* mettre une image en arrière plan */
+  background: url(f0a982c48d_50177608_voyage-vaccination-avion.jpg);
+  background-repeat: no-repeat;
+  /* l'image s'adapte à la taille  */
+  background-size: cover;
+  /* permet de garder le contenu au centre de l'image */
+  background-position:center ;
+}
+/* positionner un logo ou titre en haut à gauche */
+h3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+}
+.nav-list{
+    display:flex;
+    justify-content:space-around ;
+    flex-direction: row;
+    position: absolute;
+    top: 25px;
+    right: 250px;
+}
+.item{
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+}
+h1 {
+    font-size:40px;
+    margin-bottom: 10px; 
+}
+.formulaire{
+    border: 0;
+    padding: 0 0 0 10px;
+    border-radius: 5px;
+
+
+}
+
